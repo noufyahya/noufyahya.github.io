@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Nouf Yahya</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Include Unite Gallery core files -->
+  <script src='unitegallery/js/unitegallery.min.js' type='text/javascript'></script>
+  <link href='unitegallery/css/unite-gallery.css' rel='stylesheet' type='text/css' />
+
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+  <script type="text/javascript" src="jquery.balanced-gallery.min.js"></script>
+  <link rel="shortcut icon" type="image/png" href="img/girl4.png">
+  <script type="text/javascript">
+    var i = 0;
+    var time = 2000;
+    //define the images array
+    //add their srcs
+    //
+    var images1 = [];
+    var images2 = [];
+    var images3 = [];
+
+
+    //imagelist-Database
+    images1[0] = 'img/mysql.png';
+    images1[1] = 'img/mysql.png';
+    images1[2] = 'img/mysql.png';
+
+    //list of other imges
+    /*      
+           images2[0]='img/project32.png';
+          images2[1]='img/project31.png';
+          images2[2]='img/project33.png';
+                //list of other imges
+          images3[0]='img/project34.png';
+          images3[1]='img/project35.png';
+          images3[2]='img/project36.png';*/
+    //list of other imges
+    images2[0] = 'img/project21.png';
+    images2[1] = 'img/project22.png';
+    images2[2] = 'img/project22.png';
+
+    //list of web dev img
+    images3[0] = 'img/home.png';
+    images3[1] = 'img/signup.png';
+    images3[2] = 'img/signup.png';
+
+
+
+
+    function changeimg() {
+      document.slide1.src = images1[i];
+      document.slide2.src = images2[i];
+      document.slide3.src = images3[i];
+
+
+      if (i < images1.length - 1) {
+        i++;
+      } else {
+        i = 0;
+      }
+      setTimeout("changeimg()", time);
+
+
+    }
+    window.onload = changeimg;
+  </script>
+  <!-- Custom fonts for this template -->
+  <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet"
+    type="text/css">
+  <link href='https://fonts.googleapis.com/css?family=Cabin:700' rel='stylesheet' type='text/css'>
+  <link href='projects.css' rel='stylesheet' type='text/css'>
+  <!-- Custom styles for this template -->
+  <link href="css/grayscale.min.css" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+</head>
+
+<body id="page-top">
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+    <div class="container">
+      <!--Edited-->
+      <a class="navbar-brand js-scroll-trigger" href="#page-top">Home</a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+        data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+        aria-label="Toggle navigation">
+        Menu
+        <i class="fa fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#opinion">Opinion</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#project">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#work">Experience</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Intro Header -->
+  <header class="masthead">
+    <div class="intro-body">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <h3 class="brand-heading">Nouf Yahya </h3>
+            <p class="intro-text">Welcome to my website,
+              my name is Nouf Yahya, I have experience working in a team and individually, I am enthusiast about the
+              field of computing, that’s why I am
+              willing to learn what ever the job may need whether it’s a framework or a language to support the company
+              I work in.
+              <br>
+            </p>
+            <a href="#about" class="btn btn-circle js-scroll-trigger">
+              <i class="fa fa-angle-double-down animated"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- opinion Section -->
+  <section id="opinion" class="content-section text-center">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 mx-auto">
+          <h5>An opinion <br> </h5>
+          <p>
+            In the middle east it's said that women are not seen more often in the
+            IT section of any company and i never belived that, until i saw it with my own eyes,
+            i was refused by a company simply because of my gender.
+            This field is male domninate, but the problem is,
+            we girls are human beings too and we too like to code,
+            I am writing this in my HTML file in a time where i am training in a company
+            that saw it "hard for me", a female, to work with 7 guys, therfore i would love it
+            if your company focused more on my work rather than my gender.
+            <br> Thank You.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="content-section text-center">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 mx-auto">
+          <h2>
+            <a href="#about">About Nouf</a></h2>
+          <p>
+            I have had some struggles in studying Engineering but
+            I knew one thing, I wanted to continue in the field of coding because you can see
+            results in reality, results that you can touch in every day life, you can make something
+            related to medical or gaming field or you can save lives using only a text
+            editor, you can make a robot that would help in every thing you can think of, therefore I was very
+            passionate about my major "computer science" and I moved to it instantly and I don't regret it at all.
+
+            <br>
+            <a href="noufyahyaCV.pdf">CV of Nouf Yahya</a>
+            </object>
+          </p>
+
+        </div>
+  </section>
+
+  <!-- Projects Section -->
+
+  <section name="projects" id="project" class="content-section text-center">
+    <div class="container">
+      <h1 name="projects" id="projects" class="brand-heading text-center">
+        <a name="projects" href="#projects" aria-labelledby="projects">Projects</a>
+      </h1>
+
+      <body>
+
+        <p>This section is under maintenance, in the mean time
+          please visit <a href="http://github.com/noufyahya">my Github</a>
+        </p>
+        <h4>Thank you</h4>
+      </body>
+    </div>
+
+  </section>
+  <!--
+
+        <body>
+
+          <h2 class="brand-heading ">Android applications</h2>
+          <h3>Blood Donation Application </h3>
+          <p id="project1"> With a team of two of my colleagues, <a href="https://twitter.com/SamiaaMd">Samia
+              Mohammed</a> and <a href="https://twitter.com/2ssmaaa">Asma Khaled</a>, we have made
+            an application (Senior Project) that will make finding donors much easier for the doctors, I will allow the
+            hospitals
+            to find near donors in real time on a Map that is designed for this application, how will they appear you
+            might ask!
+            these people will have to be pre-registered in the application beforehand, they will give their blood type
+            into the application, once they register for our app, the hospital will also be pre-registered by uploading
+            their
+            certificate to the application.
+
+          </p>
+        </body>
+      </div>
+    </div>
+    <div>
+      <iframe class="videoAdjuments" width="70%" height="200%" src="https://www.youtube.com/embed/BK3R08GUD3I"
+        frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
+    </div>
+    <br />
+    <div class="container ">
+
+      <body>
+        <h3>Share application</h3>
+        <p id="project1">
+          With my colleague <a href="https://www.instagram.com/afrrra__h/"> Afra Hamad</a> we have
+          made an android application
+          called 'Share', that allows the user to share, borrow or sell his used books on share application.
+        </p>
+      </body>
+
+      <div>
+        <iframe class="videoAdjuments" width="100%" height="200%" src="https://www.youtube.com/embed/gzy_GweJYb0"
+          frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+      </div>
+    </div>
+    <div class="container ">
+      <br />
+
+      <h2 class="brand-heading ">Front End</h2>
+      <h3>UAE Transportation</h3>
+
+      <p>
+        With a team of 6 students, I and my colleagues have made a website in the class of web programming,
+        it is about the tranportation in the UAE, it is very <b>simple</b> since it was the beginning of
+        my education about HTML, CSS, and Jquery and it's not sophisticated like my recent work. (2016)
+      </p>
+      <div>
+        <h3>SCHS website </h3>
+        <p>
+          I am one of two admins of the SCHS website as well as other websites that come under the umbrella of SCHS like
+          the
+          Art for All, I have made many changes in the website with Mr. Malik.
+        </p>
+
+      </div>
+
+      </p>
+
+
+    </div>
+    <div class="container ">
+      <h2 class="brand-heading ">Backend/Database</h2>
+      <h3> MySQL </h3>
+      <p>
+        I have experience in working with db server in SCHS which is a school in Sharjah, i have helped in managing it
+        in a team of two
+        , myself and Mr. malik and some experience in the DBMS that is related to the school, I have made major changes
+        in it as well
+        as debugging the DBMS.
+        <br />
+      </p>
+    </div>
+    <div class="container ">
+
+      <h3>Happy Givers -Project-</h3>
+      <p>
+        In 2018, with my colleagues <a href="https://twitter.com/SamiaaMd">Samia Mohammed</a> and
+        <a href="https://twitter.com/2ssmaaa">Asma Khaled</a>, we have made a simple website that would be connected
+        with
+        our database "Happy Givers" using the tools provided by phpMyAdmin,
+        we used php in this project alongside HTML, CSS, and javascript to send the information from the forms
+        immediately to the database on phpMyAdmin. (2018)
+      </p>
+      <div>
+        <img name="slide3" class="WidthAdjustment" style="padding-bottom :2 inch">
+      </div>
+    </div>
+
+    <div class="container">
+      <h2 class="brand-heading ">Others:</h2>
+
+      <h3>Assembly project: Arithmetic Operations Using Bit Operations</h3>
+
+      <p>
+        <b>In 2018 i was on team with Miss Rotana Ismail,
+          together we have made a project with assembly language in the program of masm32
+          and the topic was "arithmetic operations using bit operations".(2018)
+        </b>
+
+        <div>
+          <iframe class="videoAdjuments" width="100%" height="200%" src="https://www.youtube.com/embed/ccG7TLkeiXU"
+            frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </div>
+      </p>
+    </div>
+    <div class="container">
+      <h3 class="brand-heading"> OpenGL: Bézier Curve</h3>
+      <p>
+        <b> With a team of two students, Nora Ba Fadhl and Maryam Shahzad,
+          we have made a Bézier curve as a project for the class of Computer Graphics taute by Dr. Naveed Ahmed.
+
+        </b></p>
+      <div>
+        <iframe class="videoAdjuments" width="100%" height="200%" src="https://www.youtube.com/embed/IG5zKXRLfOY"
+          frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen>
+        </iframe>
+      </div>
+    </div>
+    <div class="container ">
+
+      <body>
+
+        <h3 class="brand-heading ">Dr Racket: Racket Module -Gudetama-</h3>
+
+        <p id="project1"> With my colleague Najla Obaid, we have made a new racket module called Gudetama
+          , that would do simple
+          things which includes mainly string manipulations, the project is uploaded on my github:
+          <a href="https://github.com/noufyahya/gudetama.git">Gudetama</a>.
+
+
+        </p>
+      </body>
+    </div>
+     <h1 class="brand-heading text-center"> Personal Projects</h1>
+
+          <div class="containter">
+                <h2  class="brand-heading text-center">A JavaScript calculator</h2>
+
+              <p>In 2018 I have made a calculator using JavaScript these some photos to show the result and the document :-</p>
+           
+
+              <div  class="WidthAdjustment">
+
+                  <img name="slide2" id="CalculatorMiddle" class="WidthAdjustment" />
+                  <img name="slide3" id="CalculatorMiddle" class="WidthAdjustment"/>
+              </div>              
+            <p>This is the html of that calculator :<a href="calculator.html">  calculator</a> </p>
+          </div>
+  </section>
+  -->
+
+  <section id="work">
+    <div class="container">
+      <div class="container text-center">
+        <h1 class="brand-heading">Work Experience</h1>
+        </b>
+        <h3>INTERN (2 months) @ SDAA </h3>
+        <img id="InMiddleImg" width="70%" height="auto" src="img/IMG_3727.JPG">
+        <h4>
+          Sharjah Documentation & Archives Authority .
+        </h4>
+        <h3>INTERN (current) @ SCHS </h3>
+        <img id="InMiddleImg" width="30%" height="auto" src="img/schs.jpg">
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="content-section text-center">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 mx-auto">
+          <br>
+          <h2>Contact Nouf Yahya</h2>
+          <ul class="list-inline banner-social-buttons">
+            <li class="list-inline-item">
+              <a href="https://www.instagram.com/nouf.codes/" class="btn btn-default btn-lg">
+                <i class="fa fa-bars fa-fw"></i>
+                <span class="network-name">Instagram</span>
+              </a>
+            </li>
+            <li class="list-inline-item banner-social-buttons">
+              <a href="https://www.linkedin.com/in/nouf-yahya-80b036159" class="btn btn-default btn-lg">
+                <i class="fa fa-bars fa-fw"></i>
+                <span class="network-name">linkedin</span>
+              </a>
+            </li>
+            <li class="list-inline-item banner-social-buttons">
+              <a href="https://github.com/noufyahya?tab=repositories" class="btn btn-default btn-lg">
+                <i class="fa fa-bars fa-fw"></i>
+                <span class="network-name">Github</span>
+              </a>
+            </li>
+
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Map Section -->
+
+  <!-- Footer -->
+  <footer>
+    <div class="container text-center">
+      <p>Copyright &copy; github 2018</p>
+    </div>
+  </footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+  <!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCRngKslUGJTlibkQ3FkfTxj3Xss1UlZDA&sensor=false">
+  </script>
+
+  <!-- Custom scripts for this template -->
+  <script src="js/grayscale.min.js"></script>
+
+</body>
+
+</html>
+<!--I love ME-->
